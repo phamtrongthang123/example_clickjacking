@@ -27,3 +27,4 @@ Using framebusting (frame breaking) to break out iframe of the attack page. Even
 ## Reference
 
 - <https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html>
+- https://javascript.info/clickjacking
