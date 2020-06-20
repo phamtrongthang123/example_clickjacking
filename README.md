@@ -16,7 +16,7 @@ Using Express and helmet could achive the same result as XFO.
 
 ## Twitter + Facebook
 
-Show that twitter + facebook also using some methods to prevent clickjacking.
+Show that twitter + facebook are also using some methods to prevent clickjacking.
 
 If you want to see how clickjacking attack facebook Like, probably youtube is the way.
 
