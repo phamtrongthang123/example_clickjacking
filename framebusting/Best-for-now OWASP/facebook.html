@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <style id="antiClickjack">
+    body {
+      display: none !important;
+    }
+  </style>
+
+  <script type="text/javascript">
+    if (self === top) {
+      var antiClickjack = document.getElementById("antiClickjack");
+      antiClickjack.parentNode.removeChild(antiClickjack);
+    } else {
+      top.location = self.location;
+    }
+  </script>
+</head>
+
+<body style="margin:10px;padding:10px">
+  <div>Facebook here</div>
+  <input type="button" onclick="alert('Like pressed on facebook.html!')" value="I LIKE IT !"
+    style="background-color:red">
+
+</body>
+
+</html>
